@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>利用規約 / Terms of Service – GOALPOST</title>
+<style>
+  :root {
+    --bg: #0d0d0d;
+    --surface: #1a1a1a;
+    --border: #2a2a2a;
+    --text: #ffffff;
+    --muted: #888888;
+    --accent: #6caddf;
+    --font: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font);
+    line-height: 1.8;
+    padding: 0 16px;
+  }
+  header {
+    padding: 48px 0 32px;
+    border-bottom: 1px solid var(--border);
+    margin-bottom: 40px;
+  }
+  .app-name {
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: var(--accent);
+    margin-bottom: 12px;
+  }
+  h1 {
+    font-size: clamp(24px, 5vw, 36px);
+    font-weight: 600;
+    line-height: 1.2;
+    margin-bottom: 12px;
+  }
+  .updated { font-size: 13px; color: var(--muted); }
+  .lang-switch { display: flex; gap: 8px; margin-top: 20px; }
+  .lang-btn {
+    padding: 6px 16px;
+    border-radius: 20px;
+    font-size: 12px;
+    cursor: pointer;
+    border: 1px solid var(--border);
+    background: transparent;
+    color: var(--muted);
+    transition: all .15s;
+  }
+  .lang-btn.active { background: var(--accent); color: #000; border-color: var(--accent); }
+  .content { max-width: 720px; margin: 0 auto; padding-bottom: 80px; }
+  .section { margin-bottom: 40px; }
+  h2 {
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--accent);
+    margin-bottom: 14px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid var(--border);
+  }
+  p { font-size: 15px; color: #ccc; margin-bottom: 12px; }
+  ul { padding-left: 20px; margin-bottom: 12px; }
+  li { font-size: 15px; color: #ccc; margin-bottom: 6px; }
+  a { color: var(--accent); text-decoration: none; }
+  a:hover { text-decoration: underline; }
+  .card {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+    margin-bottom: 16px;
+  }
+  .card-title { font-size: 13px; color: var(--muted); margin-bottom: 6px; }
+  .card-value { font-size: 15px; color: var(--text); }
+  footer {
+    border-top: 1px solid var(--border);
+    padding: 32px 0;
+    text-align: center;
+    font-size: 13px;
+    color: var(--muted);
+  }
+  .lang-section { display: none; }
+  .lang-section.active { display: block; }
+  .nav-link {
+    display: inline-block;
+    margin-top: 8px;
+    font-size: 13px;
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+<div class="content">
+  <header>
+    <div class="app-name">GOALPOST</div>
+    <h1>利用規約<br>Terms of Service</h1>
+    <div class="updated">最終更新 / Last updated: 2026年6月16日</div>
+    <div class="lang-switch">
+      <button class="lang-btn active" onclick="switchLang('ja')">日本語</button>
+      <button class="lang-btn" onclick="switchLang('en')">English</button>
+    </div>
+  </header>
+
+  <!-- 日本語 -->
+  <div class="lang-section active" id="lang-ja">
+    <div class="section">
+      <p>本利用規約（以下「本規約」）は、GOALPOSTアプリ（以下「本アプリ」）の利用条件を定めるものです。本アプリをご利用いただくことで、本規約に同意したものとみなします。</p>
+    </div>
+
+    <div class="section">
+      <h2>1. サービスの概要</h2>
+      <p>本アプリは、サッカーの試合結果やキックオフ情報をかっこいい画像にしてSNSにシェアできるサービスです。</p>
+    </div>
+
+    <div class="section">
+      <h2>2. 利用資格</h2>
+      <p>本アプリは13歳以上の方がご利用いただけます。13歳未満の方は保護者の同意が必要です。</p>
+    </div>
+
+    <div class="section">
+      <h2>3. 知的財産権</h2>
+      <p>本アプリのデザイン・テンプレート・コードに関する知的財産権は開発者に帰属します。</p>
+      <p>本アプリはチーム名・ロゴ・エンブレムなどの公式チーム素材を一切使用しておらず、ユーザーが入力したカラー情報のみを使用します。ユーザーが作成した画像の著作権はユーザー自身に帰属します。</p>
+    </div>
+
+    <div class="section">
+      <h2>4. 禁止事項</h2>
+      <p>以下の行為を禁止します。</p>
+      <ul>
+        <li>本アプリのリバースエンジニアリング・改変・複製</li>
+        <li>本アプリを使用した違法コンテンツの作成・配布</li>
+        <li>他者の著作権・商標権を侵害するコンテンツの作成</li>
+        <li>本アプリの商業的な再販・転用</li>
+        <li>その他法令に違反する行為</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. 課金・返金について</h2>
+      <p>本アプリのPremiumプランはサブスクリプション（月額・年額）で提供されます。</p>
+      <ul>
+        <li>無料トライアル期間終了後、自動的に有料プランに移行します</li>
+        <li>解約はいつでもApp Store／Google Playの設定から行えます</li>
+        <li>返金はApp Store／Google Playの返金ポリシーに従います</li>
+        <li>テンプレートパックは買い切り型で返金はできません</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. 免責事項</h2>
+      <p>本アプリは現状のまま提供され、特定の目的への適合性を保証するものではありません。本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</p>
+    </div>
+
+    <div class="section">
+      <h2>7. サービスの変更・終了</h2>
+      <p>開発者は予告なく本アプリの機能変更・サービス終了を行う場合があります。</p>
+    </div>
+
+    <div class="section">
+      <h2>8. 準拠法</h2>
+      <p>本規約は日本法に準拠し、日本の裁判所を管轄裁判所とします。</p>
+    </div>
+
+    <div class="section">
+      <h2>9. お問い合わせ</h2>
+      <div class="card">
+        <div class="card-title">メールアドレス</div>
+        <div class="card-value"><a href="mailto:yuta.kawamitsu32@gmail.com">yuta.kawamitsu32@gmail.com</a></div>
+      </div>
+      <a class="nav-link" href="./privacy.html">→ プライバシーポリシーを見る</a>
+    </div>
+  </div>
+
+  <!-- English -->
+  <div class="lang-section" id="lang-en">
+    <div class="section">
+      <p>These Terms of Service ("Terms") govern your use of the GOALPOST app (the "App"). By using the App, you agree to these Terms.</p>
+    </div>
+
+    <div class="section">
+      <h2>1. Service Overview</h2>
+      <p>The App allows users to create stylized images of soccer match results and kickoff information for sharing on social media.</p>
+    </div>
+
+    <div class="section">
+      <h2>2. Eligibility</h2>
+      <p>The App is available to users aged 13 and older. Users under 13 require parental consent.</p>
+    </div>
+
+    <div class="section">
+      <h2>3. Intellectual Property</h2>
+      <p>All intellectual property rights in the App's design, templates, and code belong to the developer.</p>
+      <p>The App does not use any official team logos, emblems, or branding. Only user-provided color information is used. Copyright in images created by users belongs to the respective users.</p>
+    </div>
+
+    <div class="section">
+      <h2>4. Prohibited Activities</h2>
+      <ul>
+        <li>Reverse engineering, modifying, or copying the App</li>
+        <li>Creating or distributing illegal content using the App</li>
+        <li>Creating content that infringes third-party copyrights or trademarks</li>
+        <li>Commercially reselling or repurposing the App</li>
+        <li>Any other activity that violates applicable laws</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>5. Payments and Refunds</h2>
+      <p>The Premium plan is offered as a subscription (monthly or annual).</p>
+      <ul>
+        <li>After the free trial, the subscription renews automatically</li>
+        <li>You may cancel anytime through App Store or Google Play settings</li>
+        <li>Refunds are subject to the App Store / Google Play refund policies</li>
+        <li>Template packs are one-time purchases and are non-refundable</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>6. Disclaimer</h2>
+      <p>The App is provided "as is" without warranties of any kind. The developer is not liable for any damages arising from the use of the App.</p>
+    </div>
+
+    <div class="section">
+      <h2>7. Changes and Termination</h2>
+      <p>The developer may modify or discontinue the App's features or service without prior notice.</p>
+    </div>
+
+    <div class="section">
+      <h2>8. Governing Law</h2>
+      <p>These Terms are governed by the laws of Japan. Any disputes shall be subject to the exclusive jurisdiction of Japanese courts.</p>
+    </div>
+
+    <div class="section">
+      <h2>9. Contact</h2>
+      <div class="card">
+        <div class="card-title">Email</div>
+        <div class="card-value"><a href="mailto:yuta.kawamitsu32@gmail.com">yuta.kawamitsu32@gmail.com</a></div>
+      </div>
+      <a class="nav-link" href="./privacy.html">→ View Privacy Policy</a>
+    </div>
+  </div>
+
+  <footer>
+    <p>© 2026 GOALPOST. All rights reserved.</p>
+  </footer>
+</div>
+
+<script>
+function switchLang(lang) {
+  document.querySelectorAll('.lang-section').forEach(el => el.classList.remove('active'));
+  document.querySelectorAll('.lang-btn').forEach(el => el.classList.remove('active'));
+  document.getElementById('lang-' + lang).classList.add('active');
+  event.target.classList.add('active');
+}
+</script>
+</body>
+</html>
